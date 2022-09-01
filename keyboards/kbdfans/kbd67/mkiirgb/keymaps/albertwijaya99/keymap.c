@@ -58,7 +58,7 @@ void process_combo_event(uint16_t combo_index, bool pressed) {
         tap_code16(LSFT(KC_F6));
       }	
       break;
-    case BSPC_LSFT_CLEAR:
+    case CLEAR_LINE:
       if (pressed) {
         tap_code16(KC_END);
         tap_code16(S(KC_HOME));
